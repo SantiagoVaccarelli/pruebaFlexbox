@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+    color: rgb(0, 255, 234);
+}
+
+
+.container{
+    width: 100vw;
+}
+
+.item{
+    background-color: gray;
+    display: inline-block;
+}
+
+.intro{
+    background-color: black;
+    height: 50vh;
+    width: 50vw;
+    padding: 0.5em;
+}
+
+.works{
+    width: 20vw;
+    height: 100vh;
+    float: right;   
+}
+
+.work{
+    margin-bottom: 4%;
+    height: 30%;
+    background-color: red;
+}
+
+.work:first-child{
+    margin-top: 10px;
+}
