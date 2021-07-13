@@ -12,34 +12,40 @@ html, body{
 }
 
 
-.container{
-    width: 100vw;
-}
-
-.item{
-    background-color: gray;
-    display: inline-block;
-}
-
 .intro{
-    background-color: black;
-    height: 50vh;
-    width: 50vw;
-    padding: 0.5em;
+    display: inline-block;
+    height: 100vh;
+    /*background-color: blue;*/
+    width: 70%;
+    position: relative;
+}
+
+.personal-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .works{
     width: 20vw;
     height: 100vh;
-    float: right;   
+    background-color: gray;
+    display: flex;
+    flex-flow: row wrap;
+    float: right;
 }
 
 .work{
-    margin-bottom: 4%;
-    height: 30%;
     background-color: red;
+    margin: 0.5em;
+    width: 100%;
+    position: relative;
 }
 
-.work:first-child{
-    margin-top: 10px;
+.work p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
