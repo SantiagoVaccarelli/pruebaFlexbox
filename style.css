@@ -49,7 +49,7 @@ html, body{
     display: inline-block;
     position: relative;
     height: 95vh;
-    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,.8)), url(img/background-img.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,.8)), url(img/background.jpg);
     background-size: cover;
 }
 
