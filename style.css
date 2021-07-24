@@ -27,7 +27,7 @@ html, body{
     margin: auto;
     text-decoration: none;
     color: black;
-    transition: border-bottom 0.4;
+    transition: border-bottom 0.4s;
 }
 
 
